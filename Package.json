@@ -1,0 +1,15 @@
+{
+  "name": "bearme",
+  "version": "1.0.0",
+  "description": "A Simple NPM Package For Console.Logging One Line ASCII Bears",
+  "main": "cli.js",
+  "bin": {
+    "bearme": "cli.js"
+  },
+  "scripts": {
+    "start": "sudo index.js",
+    "test": "node test.js"
+  },
+  "author": "Smint <smintoverflow@gmail.com> (http://smintgaming.github.io)",
+  "license": "MIT"
+}
