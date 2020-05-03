@@ -1,5 +1,5 @@
 {
-  "name": "bearme",
+  "name": "bearhug",
   "version": "1.0.0",
   "description": "A Simple NPM Package For Console.Logging One Line ASCII Bears",
   "main": "cli.js",
