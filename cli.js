@@ -1,14 +1,18 @@
 #!/usr/bin/env node
-
+/*jshint esversion: 8 */
 var fs = require('fs');
 var path = require('path');
-function bearcreate (){
+async function bearcreate (){
 fs.readFile(path.resolve(__dirname, 'bears.txt'), function (err, data) {
-  var bears = data.toString().split('\n');
-  var bear = bears[Math.floor(Math.random() * bears.length)];
+  if (err) {
+    console.log(err);
+  } else {
+  global.bears = data.toString().split('\n');
+  global.bear = bears[Math.floor(Math.random() * bears.length)];
   console.log(bear);
-})};
+  }
+});}
 
-bearcreate()
+bearcreate(); //?
 
-module.exports.bearcreate = bearcreate;
+module.exports.bearcreate = bearcreate();
