@@ -9,7 +9,7 @@ fs.readFile(path.resolve(__dirname, 'bears.txt'), function (err, data) {
   } else {
   global.bears = data.toString().split('\n');
   global.bear = bears[Math.floor(Math.random() * bears.length)];
-  console.log(bear);
+  console.log(bear); //?
   }
 });}
 
