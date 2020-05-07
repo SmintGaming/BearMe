@@ -1,13 +1,13 @@
 {
   "name": "bearhug",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A Simple NPM Package For Console.Logging One Line ASCII Bears",
   "main": "cli.js",
   "bin": {
     "bearme": "cli.js"
   },
   "scripts": {
-    "start": "sudo cli.js",
+    "start": "node cli.js",
     "test": "node test.js"
   },
   "author": "Smint <smintoverflow@gmail.com> (http://smintgaming.github.io)",
