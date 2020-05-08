@@ -8,7 +8,7 @@ fs.readFile(path.resolve(__dirname, 'bears.txt'), function (err, data) {
     console.log(err);
   } else {
   global.bears = data.toString().split('\n');
-  global.bear = bears[Math.floor(Math.random() * bears.length)];
+  global.bear = bears[Math.floor(Math.random(Math.floor) * bears.length)];
   console.log(bear); //?
   }});}
 
