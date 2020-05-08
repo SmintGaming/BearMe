@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node cli.js",
-    "test": "node test.js"
+    "test": "node cli.js"
   },
   "author": "Smint <smintoverflow@gmail.com> (http://smintgaming.github.io)",
   "license": "MIT"
